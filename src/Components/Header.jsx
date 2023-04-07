@@ -35,6 +35,7 @@ const Header = () => {
         />
         <SearchIcon className="header__searchIcon" />
       </div>
+      
 
       <div className="header__nav">
         <div className="header__option">
