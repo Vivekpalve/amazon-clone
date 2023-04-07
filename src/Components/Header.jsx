@@ -16,7 +16,7 @@ const Header = () => {
           <LocationOnOutlinedIcon />
         </div> */}
         <div className="header__option">
-          <span className="header__optionLineOne">Hello </span>
+          <span id ='hello'className="header__optionLineOne">Hello </span>
           <div className="header__locationIcon">
           <LocationOnOutlinedIcon />
         
