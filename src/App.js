@@ -18,6 +18,7 @@ function App() {
               </>
             }
           />
+
           <Route/>
           <Route
             path="/checkout"
