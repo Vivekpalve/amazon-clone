@@ -3,7 +3,10 @@ import "../Components/Checkout.css";
 const Checkout = () => {
   return (
     <div>
+
       <h1>vivek palve</h1>
+      
+
     </div>
   );
 };
