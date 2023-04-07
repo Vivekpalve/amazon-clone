@@ -14,12 +14,16 @@ const Header = () => {
       />
       {/* you can add your location to get the order */}
       <div className="header__nav">
-        <div className="header__locationIcon">
+        {/* <div className="header__locationIcon">
           <LocationOnOutlinedIcon />
-        </div>
+        </div> */}
         <div className="header__option">
           <span className="header__optionLineOne">Hello </span>
+          <div className="header__locationIcon">
+          <LocationOnOutlinedIcon />
+        
           <span className="header__optionLineTwo">Select Your Address</span>
+          </div>
         </div>
       </div>
       {/* search bar you can search any product you want */}
