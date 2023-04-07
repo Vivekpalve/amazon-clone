@@ -3,7 +3,7 @@ import "../Components/Checkout.css";
 const Checkout = () => {
   return (
     <div>
-      <h1>check</h1>
+      <h1>i love you my sukdya</h1>
     </div>
   );
 };
