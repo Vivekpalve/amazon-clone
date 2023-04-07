@@ -2,23 +2,21 @@ import "./App.css";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Checkout from "./Components/Checkout";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routers, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
       <div className="app">
-        <Switch>
-          <Route path="/checkout">
+        <Routers>
+          <Route link="/checkout">
             <Header />
             <Checkout />
           </Route>
-          <Route path="/">
-            {/* Header */}
+          <Route link="/home">
             <Header />
-            {/* Home */}
             <Home />
           </Route>
-        </Switch>
+        </Routers>
       </div>
     </Router>
   );
