@@ -6,11 +6,13 @@ import { ShoppingBasket } from "@mui/icons-material";
 const Header = () => {
   return (
     <div className="header">
+      {/* adding Amazon.in logo image */}
       <img
         className="header__logo"
         src="https://zeevector.com/wp-content/uploads/LOGO/Amazon-India-Logo-PNG-White2.png"
         alt="Amzone_logo"
       />
+      {/* you can add your location to get the order */}
       <div className="header__nav">
         {/* <div className="header__locationIcon">
           <LocationOnOutlinedIcon />
@@ -24,6 +26,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      {/* search bar you can search any product you want */}
       <div className="header__search">
         <input
           type="text"
