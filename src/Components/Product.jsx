@@ -20,7 +20,7 @@ const Product = (props) => {
       </div>
       <img src={props.image} alt="" />
 
-      <button>Add to Card</button>
+      <button className="add_to_cart">Add to Card</button>
     </div>
   );
 };

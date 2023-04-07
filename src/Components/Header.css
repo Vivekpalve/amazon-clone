@@ -40,9 +40,12 @@
   height: 22px !important;
   background-color: #cd9042;
 }
-
+#hello{
+  margin-left: 25px;
+}
 .header__optionLineOne {
-  font-size: 10px;
+  font-size: 12px;
+  
 }
 .header__optionLineTwo {
   font-size: 13px;

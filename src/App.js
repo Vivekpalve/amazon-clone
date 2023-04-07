@@ -3,6 +3,9 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Checkout from "./Components/Checkout";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <Router>
@@ -26,6 +29,9 @@ function App() {
               </>
             }
           />
+
+          <Route path="/checkout" element={[<Header />, <Checkout />]} />
+          <Route path="/" element={[<Header />, <Home />]} />
         </Routes>
       </div>
     </Router>

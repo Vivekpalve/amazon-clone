@@ -1,3 +1,4 @@
+
 import React from 'react'
 import '../Components/Checkout.css';
 const Checkout = () => {
@@ -7,5 +8,6 @@ const Checkout = () => {
     </div>
   )
 }
+
 
 export default Checkout;
