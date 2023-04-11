@@ -10,24 +10,8 @@ function App() {
       <div className="app">
         <Header />
         <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Home />
-              </>
-            }
-          />
-
-          <Route />
-          <Route
-            path="/checkout"
-            element={
-              <>
-                <Checkout />
-              </>
-            }
-          />
+          <Route path='/' element = {<><Header/><Home/></>}/>
+          <Route path='/checkout' element={<><Header/><Checkout/></>}/>
         </Routes>
       </div>
     </Router>
@@ -35,3 +19,4 @@ function App() {
 }
 
 export default App;
+
