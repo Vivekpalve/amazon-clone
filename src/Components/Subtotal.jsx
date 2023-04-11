@@ -29,4 +29,3 @@ const Subtotal = () => {
 };
 
 export default Subtotal;
-
