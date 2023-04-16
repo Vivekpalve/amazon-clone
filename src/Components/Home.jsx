@@ -7,8 +7,7 @@ const Home = () => {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://m.media-amazon.com/images/I/61aURrton0L._SX3000_.jpg
-"
+          src="https://m.media-amazon.com/images/I/61aURrton0L._SX3000_.jpg"
           alt=""
         />
         <div className="home__row">
