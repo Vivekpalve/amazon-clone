@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-// import * as serviceWorker from "./serviceWorker";
+import reportWebVitals from './reportWebVitals';
 import reducer, { initialState } from "./Components/reducer";
 import { StateProvider } from "./Components/StateProvider";
 
@@ -14,3 +14,5 @@ root.render(
     </StateProvider>
   </React.StrictMode>
 );
+
+reportWebVitals();

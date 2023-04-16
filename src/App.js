@@ -8,10 +8,9 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Header />
         <Routes>
-          <Route path='/' element = {<><Header/><Home/></>}/>
-          <Route path='/checkout' element={<><Header/><Checkout/></>}/>
+          <Route path="/" element={<><Header/><Home/></>}/>
+          <Route path="/checkout" element={<><Header/><Checkout/></>}/>
         </Routes>
       </div>
     </Router>
@@ -19,4 +18,3 @@ function App() {
 }
 
 export default App;
-
