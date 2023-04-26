@@ -17,7 +17,7 @@ const Product = ({ id, title, image, price, rating }) => {
       },
     });
   };
-  console.log("added", basket); 
+  // console.log("added", basket);
   return (
     <div className="product">
       <div className="product__info">
